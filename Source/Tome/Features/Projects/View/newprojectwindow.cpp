@@ -24,7 +24,6 @@ NewProjectWindow::NewProjectWindow(QWidget *parent) :
     this->ui->comboBoxRecordIdType->addItem(RecordIdType::toString(RecordIdType::Integer));
     this->ui->comboBoxRecordIdType->addItem(RecordIdType::toString(RecordIdType::Uuid));
     this->ui->comboBoxRecordIdType->addItem(RecordIdType::toString(RecordIdType::String));
-    this->ui->comboBoxRecordIdType->addItem(RecordIdType::toString(RecordIdType::IncrementingInteger));
 
     // Focus project name box.
     ui->lineEditName->setFocus();
